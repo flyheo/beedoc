@@ -34,6 +34,7 @@ sort: 7
 
 * Set(key, val string) error
 * String(key string) string
+* String(key string) []string(以";"进行分割)
 * Int(key string) (int, error)
 * Int64(key string) (int64, error)
 * Bool(key string) (bool, error)
